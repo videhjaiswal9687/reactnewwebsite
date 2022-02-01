@@ -1,0 +1,10 @@
+A higher-order component (HOC) is an advanced technique in React for reusing component logic.
+A higher-order component is a function that takes a component and returns a new component.
+
+Syntax:-
+const EnhancedComponent = higherOrderComponent(WrappedComponent);
+
+example: 
+const SkilledStudent = withIntern(Student) {training}
+         or
+const SkilledStudent = (Student) => {training}         
